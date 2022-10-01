@@ -1,0 +1,15 @@
+body{
+  background-color: #ecf1f9;
+}
+header{
+  background-color: #c7d1e1;
+}
+header ul{
+  width: 70%;
+  display: flex;
+  justify-content: space-between;
+}
+header ul li{
+  list-style: none;
+  line-height: 50px;
+}
