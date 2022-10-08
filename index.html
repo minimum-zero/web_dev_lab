@@ -1,43 +1,96 @@
 <!DOCTYPE html>
-<html lang="ko-KR">
-<!-- 언어 코드: en-US or ko-KR -->
+<html>
+<!-- 얘는 원래.. symantic.html 이었다... -->
 
 <head>
+  <title>복습 ing~</title>
   <meta charset="utf-8">
-  <meta name="author" content="소영">
-  <meta name="description" content="점심먹을래요">
-  <meta name="keywords" content="">
-  <meta property="og:title" content="배고파요">
-  <title>배고파요</title>
-  <link rel="stylesheet" href="./style.css" />
+  <meta name="viewport" content="width=device-width, initial scale=1.0">
 </head>
+<meta name="title" content="중간고사 (갑자기) 전 복습타임">
+<meta property="og:title" content="갑자기 분위기 중간고사">
 
 <body>
   <header>
-    <ul>
-      <li>헤더를</li>
-      <li>만들어</li>
-      <li>보자</li>
-    </ul>
+    <!-- logo, nav, search -->
+    <nav id="navigation">
+      <ul>
+        <li>여기로 갈까</li>
+        <li>저기로 갈까</li>
+        <li>요기로 가자</li>
+      </ul>
+    </nav>
   </header>
-  <section>
-    <div class="whyrano">
-      <h1>지난 시간에 어디까지 하신거죠</h1>
-      <ol>
-        <li>아무래도</li>
-        <li>뭔가 많이 하신거 같군요</li>
-        <li>그래요...</li>
-      </ol>
-
-      <h2>그럼 저는 냅다 사랑고백</h2>
-      <h3>박다슬 짱귀엽네...</h3>
-      <p>아주 오~랜~... 시간이 지나~.. 기억을 다 잃어도.. 그댈 알아볼 수 잇서..</p>
-      <picture>
-        <source srcset="imgUrl20220511014927874.jpg" media="(min-width:720px)">
-        <img src="imgUrl2022051101492787.jpg" alt="승환아결혼하자" width="70%" />
-      </picture>
-    </div>
-  </section>
+  <!-- 헤엑~ h1은 하나만 있어야된댕 몰랐누 -->
+  <h1>메인 타이틀</h1>
+  <p>문단문단</p>
+  <main>
+    <section>
+      <!-- section 에는 제목(h태그)이 있어야댄댕~ -->
+      <h2>부제 1</h2>
+      <p>그리고 내용</p>
+    </section>
+    <section class="practice_details">
+      <h2>부제 2</h2>
+      <details>
+        <summary>닫혀있을 때 1</summary>
+        <span>열려있을 때 1</span>
+      </details>
+      <details>
+        <summary>닫혀있을 때 2</summary>
+        <span>열려있을 때 2</span>
+      </details>
+    </section>
+    <table>
+      <caption>표 1. 캡션</caption>
+      <thead>
+        <tr>
+          <th>세로 1</th>
+          <th>세로 2</th>
+        </tr>
+      </thead>
+      <tbody>
+        <tr>
+          <td>데이터 1-1</td>
+          <td>데이터 2-1</td>
+        </tr>
+        <tr>
+          <td>데이터 1-2</td>
+          <td>데이터 2-2</td>
+        </tr>
+      </tbody>
+      <tfoot>
+        <tr>
+          <td>끼약 1</td>
+          <td>끼약 2</td>
+        </tr>
+      </tfoot>
+    </table>
+  </main>
+  <article>
+    <h3>제출양식</h3>
+    <form action="#" method="post">
+      <input type="text" id="typein" name="typein">
+    </form>
+  </article>
+  <article id="article_1">
+    <article class="articles">
+      <h3>더 작은 부제 1</h3>
+    </article>
+    <article class="articles">
+      <h3>더 작은 부제 2</h3>
+    </article>
+  </article>
+  <aside>
+    <h2>사이드 제목</h2>
+    <ul>
+      <li>사이드 리스트 1</li>
+      <li>사이드 리스트 2</li>
+    </ul>
+  </aside>
+  <footer>
+    <span>Copyrights 2022 by Soyoung</span>
+  </footer>
 </body>
 
 </html>
